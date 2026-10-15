@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chowdeck</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="png" href="./image (1).png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="./logo.png" alt="Chowdeck Logo">
+            </a>
+
+            <nav class="nav-menu">
+                <a href="#" class="nav-link">Company</a>
+                <a href="#" class="nav-link">FAQs</a>
+                <a href="#" class="nav-link">Blog</a>
+                <a href="#" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <div class="dropdown-parent">
+                    <button class="customers-btn" type="button">
+                        Customers <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">
+                            <i class="fa-solid fa-user item-icon"></i>
+                            <span>Personal users</span>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <i class="fa-solid fa-store item-icon"></i>
+                            <span>Vendors</span>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <i class="fa-solid fa-motorcycle item-icon"></i>
+                            <span>Riders</span>
+                        </a>
+                    </div>
+                </div>
+
+                <a href="#" class="cart-btn" aria-label="Cart">
+                    <img src="./card.png" alt="Cart Icon">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Se o ti jeun?</h1>
+            
+            <div class="store-buttons">
+                <a href="#" class="btn-store btn-google">
+                    <i class="fa-brands fa-google-play"></i>
+                    <span>Download on Google Play</span>
+                </a>
+                <a href="#" class="btn-store btn-apple">
+                    <i class="fa-brands fa-apple"></i>
+                    <span>Download on App Store</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="rider-wrapper">
+            <img src="./moto.png" alt="Chowdeck Delivery Rider" class="rider-img">
+        </div>
+    </main>
+
+    <section class="try-app-section">
+        <div class="try-app-container">
+            <input type="radio" name="app-tabs" id="tab-customer" checked>
+            <input type="radio" name="app-tabs" id="tab-vendors">
+            <input type="radio" name="app-tabs" id="tab-riders">
+
+            <div class="role-tabs">
+                <label for="tab-customer" class="tab-btn">Customer</label>
+                <label for="tab-vendors" class="tab-btn">Vendors</label>
+                <label for="tab-riders" class="tab-btn">Riders</label>
+            </div>
+
+            <h2 class="try-app-title">Try the App</h2>
+            <p class="try-app-desc">Have meals delivered to you in minutes from a wide variety of restaurants and stores.</p>
+
+            <div class="store-badges">
+                <a href="#" class="badge-link">
+                    <img src="./google-play.png" alt="Google Play">
+                </a>
+                <a href="#" class="badge-link">
+                    <img src="./appstor.png" alt="App Store">
+                </a>
+            </div>
+
+            <div class="preview-image-wrapper">
+                <div class="phone-screen-mockup screen-customer">
+                    <img src="./phone.png" alt="Customer App Preview" class="mockup-img">
+                </div>
+                <div class="phone-screen-mockup screen-vendors">
+                    <div class="custom-mockup-card vendor-card-bg">
+                        <i class="fa-solid fa-store card-main-icon"></i>
+                        <h3>Vendor Dashboard</h3>
+                        <p>Manage your restaurant menu, track live orders, and grow your revenue effortlessly.</p>
+                    </div>
+                </div>
+                <div class="phone-screen-mockup screen-riders">
+                    <div class="custom-mockup-card rider-card-bg">
+                        <i class="fa-solid fa-motorcycle card-main-icon"></i>
+                        <h3>Rider App</h3>
+                        <p>Accept deliveries, navigate efficiently, and maximize your daily earnings with total flexibility.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="network-section">
+        <h2 class="network-main-title">Join our growing network <i class="fa-solid fa-arrow-down"></i></h2>
+        
+        <div class="network-grid">
+            <div class="net-card card-yellow-bg">
+                <div class="net-card-content">
+                    <div class="net-badge-icon"><i class="fa-solid fa-sun"></i></div>
+                    <h3>Start selling</h3>
+                    <p>Are you a restaurant owner looking to grow your business? Reach new customers when you join our network.</p>
+                    <a href="#" class="net-card-link">SEE MORE <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="net-card-img">
+                    <img src="./net-card1.png" alt="Start selling" class="card-ill">
+                </div>
+            </div>
+
+            <div class="net-card card-green-bg">
+                <div class="net-card-content">
+                    <div class="net-badge-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Deliver happiness</h3>
+                    <p>Join our elite league of delivery riders delivering happiness to customers and earn to achieve your dreams while at it.</p>
+                    <a href="#" class="net-card-link">SEE MORE <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="net-card-img">
+                    <img src="./net-card2.png" alt="Deliver happiness" class="card-ill">
+                </div>
+            </div>
+
+            <div class="net-card card-purple-bg">
+                <div class="net-card-content">
+                    <div class="net-badge-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                    <h3>Behind the scenes</h3>
+                    <p>If you are passionate about helping us achieve our goal to deliver meals seamlessly, come join the team.</p>
+                    <a href="#" class="net-card-link">SEE MORE <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="net-card-img">
+                    <img src="./net-card3.png" alt="Behind the scenes" class="card-ill">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore-categories-section">
+        <div class="explore-container">
+            <input type="radio" name="explore-slider" id="exp-1" checked>
+            <input type="radio" name="explore-slider" id="exp-2">
+            <input type="radio" name="explore-slider" id="exp-3">
+            <input type="radio" name="explore-slider" id="exp-4">
+            <input type="radio" name="explore-slider" id="exp-5">
+
+            <div class="explore-banner">
+                <h2 class="explore-title">Explore categories</h2>
+                <div class="explore-slides-wrapper">
+                    <div class="explore-slide slide-1">
+                        <img src="./3.svg" alt="Drinks" class="explore-ill-img">
+                    </div>
+                    <div class="explore-slide slide-2">
+                        <img src="./2.svg" alt="Place your order" class="explore-ill-img">
+                    </div>
+                    <div class="explore-slide slide-3">
+                        <img src="./1.svg" alt="Unpack and enjoy" class="explore-ill-img">
+                    </div>
+                    <div class="explore-slide slide-4">
+                        <img src="./4.svg" alt="Get started" class="explore-ill-img">
+                    </div>
+                    <div class="explore-slide slide-5">
+                        <img src="./5.svg" alt="Download the app" class="explore-ill-img">
+                    </div>
+                </div>
+
+                <div class="explore-controls">
+                    <label for="exp-5" class="ctrl-btn prev-btn-1"><i class="fa-solid fa-arrow-left"></i></label>
+                    <label for="exp-1" class="ctrl-btn prev-btn-2"><i class="fa-solid fa-arrow-left"></i></label>
+                    <label for="exp-2" class="ctrl-btn prev-btn-3"><i class="fa-solid fa-arrow-left"></i></label>
+                    <label for="exp-3" class="ctrl-btn prev-btn-4"><i class="fa-solid fa-arrow-left"></i></label>
+                    <label for="exp-4" class="ctrl-btn prev-btn-5"><i class="fa-solid fa-arrow-left"></i></label>
+
+                    <div class="explore-right-controls">
+                        <div class="explore-dots">
+                            <label for="exp-1" class="dot dot-1"><span class="dot-text">01</span></label>
+                            <label for="exp-2" class="dot dot-2"><span class="dot-text">02</span></label>
+                            <label for="exp-3" class="dot dot-3"><span class="dot-text">03</span></label>
+                            <label for="exp-4" class="dot dot-4"><span class="dot-text">04</span></label>
+                            <label for="exp-5" class="dot dot-5"><span class="dot-text">05</span></label>
+                            <div class="dot-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                        </div>
+
+                        <label for="exp-2" class="ctrl-btn next-btn-1"><i class="fa-solid fa-arrow-right"></i></label>
+                        <label for="exp-3" class="ctrl-btn next-btn-2"><i class="fa-solid fa-arrow-right"></i></label>
+                        <label for="exp-4" class="ctrl-btn next-btn-3"><i class="fa-solid fa-arrow-right"></i></label>
+                        <label for="exp-5" class="ctrl-btn next-btn-4"><i class="fa-solid fa-arrow-right"></i></label>
+                        <label for="exp-1" class="ctrl-btn next-btn-5"><i class="fa-solid fa-arrow-right"></i></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="covered-section">
+        <div class="covered-container">
+            <div class="covered-header">
+                <h2>Chowdeck has <br>you covered</h2>
+                <p>Hungry? Too tired to cook? Have friends over, or do you simply need to chop life? Download Chowdeck, and let's deliver happiness to your doorstep in minutes.</p>
+            </div>
+        </div>
+
+        <div class="marquee-container pills-marquee-container">
+            <div class="covered-pills marquee-track pills-track">
+                <span class="pill active"><i class="fa-solid fa-bolt"></i> Quick and easy onboarding</span>
+                <span class="pill"><i class="fa-solid fa-utensils"></i> Quality meal choices</span>
+                <span class="pill"><i class="fa-solid fa-rocket"></i> Live updates on orders</span>
+                <span class="pill"><i class="fa-solid fa-motorcycle"></i> Highly rated riders</span>
+                <span class="pill"><i class="fa-solid fa-headset"></i> 20/7 support for customers</span>
+                <span class="pill active"><i class="fa-solid fa-bolt"></i> Quick and easy onboarding</span>
+                <span class="pill"><i class="fa-solid fa-utensils"></i> Quality meal choices</span>
+                <span class="pill"><i class="fa-solid fa-rocket"></i> Live updates on orders</span>
+                <span class="pill"><i class="fa-solid fa-motorcycle"></i> Highly rated riders</span>
+                <span class="pill"><i class="fa-solid fa-headset"></i> 20/7 support for customers</span>
+            </div>
+        </div>
+
+        <div class="covered-container">
+            <div class="covered-phones-grid">
+                <div class="covered-phone-item">
+                    <img src="./accept-order.png.png" alt="Order Accepted" class="cov-phone-img">
+                </div>
+                <div class="covered-phone-item">
+                    <img src="./pickup.png.png" alt="Pickup" class="cov-phone-img">
+                </div>
+                <div class="covered-phone-item">
+                    <img src="./order-transit.png.png" alt="Order Transit" class="cov-phone-img">
+                </div>
+                <div class="covered-phone-item">
+                    <img src="./order-arrived.png.png" alt="Order Arrived" class="cov-phone-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="streetcred-section">
+        <div class="streetcred-container">
+            <div class="streetcred-top">
+                <div class="streetcred-badge">
+                    <span class="dot-cred"></span>
+                    <h3>StreetCred</h3>
+                </div>
+                <a href="#" class="community-btn">
+                    <i class="fa-brands fa-twitter"></i> Join our community
+                </a>
+            </div>
+
+            <div class="tweets-grid">
+                <div class="tweet-card">
+                    <div class="tweet-header">
+                        <div class="tweet-user">
+                            <img src="./span (1).png" alt="Fá" class="tweet-avatar">
+                            <div>
+                                <h4>Fá</h4>
+                                <span>@victorfatanmi</span>
+                            </div>
+                        </div>
+                        <i class="fa-brands fa-twitter tweet-icon"></i>
+                    </div>
+                    <p class="tweet-text">Chowdeck is the best Nigerian mobile app I have ever used. Yes, quote me.</p>
+                </div>
+
+                <div class="tweet-card tweet-with-media">
+                    <div class="tweet-header">
+                        <div class="tweet-user">
+                            <img src="./span (2).png" alt="Teffy Billion Dollars" class="tweet-avatar">
+                            <div>
+                                <h4>Teffy Billion Dollars</h4>
+                                <span>@Jegc_tola</span>
+                            </div>
+                        </div>
+                        <i class="fa-brands fa-twitter tweet-icon"></i>
+                    </div>
+                    <p class="tweet-text">My Yam and pepper sauce just came in from King Glab and Chowdeck and my Godddd!</p>
+                </div>
+
+                <div class="tweet-card">
+                    <div class="tweet-header">
+                        <div class="tweet-user">
+                            <div class="tweet-avatar avatar-text">先</div>
+                            <div>
+                                <h4>先生</h4>
+                                <span>@TheFisola</span>
+                            </div>
+                        </div>
+                        <i class="fa-brands fa-twitter tweet-icon"></i>
+                    </div>
+                    <p class="tweet-text">Chowdeck delivered in 20 minutes. Rider said “pardon my lateness” 💀</p>
+                </div>
+
+                <div class="tweet-card tweet-with-media">
+                    <div class="tweet-header">
+                        <div class="tweet-user">
+                            <img src="./span (3).png" alt="Folasade Daini" class="tweet-avatar">
+                            <div>
+                                <h4>Folasade Daini</h4>
+                                <span>@folasade_daini</span>
+                            </div>
+                        </div>
+                        <i class="fa-brands fa-twitter tweet-icon"></i>
+                    </div>
+                    <p class="tweet-text">Have you seen the new list of vendors on Chowdeck?? Omo. It is giving 🔥🔥</p>
+                </div>
+
+                <div class="tweet-card">
+                    <div class="tweet-header">
+                        <div class="tweet-user">
+                            <div class="tweet-avatar avatar-text text-orange">TA</div>
+                            <div>
+                                <h4>THEE AWAZI</h4>
+                                <span>@THEEAWAZI</span>
+                            </div>
+                        </div>
+                        <i class="fa-brands fa-twitter tweet-icon"></i>
+                    </div>
+                    <p class="tweet-text">Food!!! 🤤💚 So excited that I can now order through @chowdeck on the island.</p>
+                </div>
+
+                <div class="tweet-card tweet-with-media">
+                    <div class="tweet-header">
+                        <div class="tweet-user">
+                            <div class="tweet-avatar avatar-text text-blue">T</div>
+                            <div>
+                                <h4>Temz👑</h4>
+                                <span>@TheRealTemz</span>
+                            </div>
+                        </div>
+                        <i class="fa-brands fa-twitter tweet-icon"></i>
+                    </div>
+                    <p class="tweet-text">I wan go baff but I can't. Because chowdeck riders move like thieves in the night.</p>
+                </div>
+
+                <div class="tweet-card">
+                    <div class="tweet-header">
+                        <div class="tweet-user">
+                            <div class="tweet-avatar avatar-text text-purple">W</div>
+                            <div>
+                                <h4>Wine</h4>
+                                <span>@RedWhinee</span>
+                            </div>
+                        </div>
+                        <i class="fa-brands fa-twitter tweet-icon"></i>
+                    </div>
+                    <p class="tweet-text">I genuinely love @chowdeck A top app with with service</p>
+                </div>
+
+                <div class="tweet-card tweet-with-media">
+                    <div class="tweet-header">
+                        <div class="tweet-user">
+                            <div class="tweet-avatar avatar-text text-pink">S</div>
+                            <div>
+                                <h4>Scheherazade</h4>
+                                <span>@._chiisom</span>
+                            </div>
+                        </div>
+                        <i class="fa-brands fa-twitter tweet-icon"></i>
+                    </div>
+                    <p class="tweet-text">You'll order Chowdeck and say yeah I have about 20 minutes to get home.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-restaurants-section">
+        <div class="map-container">
+            <div class="map-card-wrapper">
+                <div class="map-side">
+                    <div class="map-bg-image">
+                        <img src="./map.png" alt="Chowdeck Delivery Map" class="map-img">
+                    </div>
+                </div>
+
+                <div class="restaurants-side">
+                    <div class="restaurants-header">
+                        <span class="dot-indicator"></span>
+                        <h2>Restaurants</h2>
+                    </div>
+                    
+                    <div class="restaurants-list">
+                        <div class="restaurant-item">
+                            <span>Sweet Sensation</span>
+                            <button class="rest-cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="restaurant-item">
+                            <span>Mr Biggs- Agidingbi</span>
+                            <button class="rest-cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="restaurant-item">
+                            <span>Magrellos</span>
+                            <button class="rest-cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="restaurant-item">
+                            <span>Old English Superstore And Bakery</span>
+                            <button class="rest-cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="restaurant-item">
+                            <span>Goodypot Foodies Enterprises</span>
+                            <button class="rest-cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="restaurant-item">
+                            <span>Belle First.Com</span>
+                            <button class="rest-cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="restaurant-item">
+                            <span>So Fresh - Ogudu</span>
+                            <button class="rest-cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                        <div class="restaurant-item">
+                            <span>Mr Biggs- Ikoyi</span>
+                            <button class="rest-cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stories-section">
+        <div class="stories-container">
+            <div class="stories-header">
+                <h2>Stories</h2>
+                <img src="./Pasta.svg.png" alt="Pasta Icon" class="stories-icon">
+            </div>
+
+            <div class="stories-grid">
+                <div class="story-card">
+                    <div class="story-media-box media-bg-yellow">
+                        <img src="./yc_blog_thimbnail_f821b729f1.png.png" alt="Chowdeck Y Combinator" class="story-img">
+                    </div>
+                    <div class="story-content">
+                        <h3>CHOWDECK JOINS Y COMBINATOR'S S'22 BATCH</h3>
+                        <p>Chowdeck has been accepted to Y Combinator’s Summer Batch 2022...</p>
+                        <a href="#" class="story-read-btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="story-card">
+                    <div class="story-media-box">
+                        <img src="./Web_Kingsley_6701e45a41.png.png" alt="Kingsley Agbinya" class="story-img">
+                    </div>
+                    <div class="story-content">
+                        <h3>CHAMPIONS : KINGSLEY AGBINYA</h3>
+                        <p>Kingsley, a rider who got promoted to an associate talks about his journey...</p>
+                        <a href="#" class="story-read-btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="story-card">
+                    <div class="story-media-box">
+                        <img src="./Web_Agam_7215075ed3.png (2).png" alt="Anthony Agam" class="story-img">
+                    </div>
+                    <div class="story-content">
+                        <h3>CHAMPIONS : ANTHONY AGAM</h3>
+                        <p>Anthony a.k.a Spider, a Senior Man, shares his life-changing experience...</p>
+                        <a href="#" class="story-read-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-promo-section">
+        <div class="faq-promo-container">
+            
+            <div class="faq-card">
+                <input type="radio" name="faq-tab" id="faq-1" checked>
+                <input type="radio" name="faq-tab" id="faq-2">
+                <input type="radio" name="faq-tab" id="faq-3">
+                <input type="radio" name="faq-tab" id="faq-4">
+                <input type="radio" name="faq-tab" id="faq-5">
+                <input type="radio" name="faq-tab" id="faq-6">
+                <input type="radio" name="faq-tab" id="faq-7">
+
+                <div class="faq-grid">
+                    <div class="faq-left">
+                        <h2 class="faq-title">FAQs.</h2>
+                        <div class="faq-list">
+                            <label for="faq-1" class="faq-item">
+                                <span>What is Chowdeck?</span>
+                                <img src="./Frame.png" alt="Sun Icon" class="star-icon">
+                            </label>
+                            <label for="faq-2" class="faq-item">
+                                <span>What locations do we currently deliver to?</span>
+                                <img src="./Frame.png" alt="Sun Icon" class="star-icon">
+                            </label>
+                            <label for="faq-3" class="faq-item">
+                                <span>What is Chowdeck wallet?</span>
+                                <img src="./Frame.png" alt="Sun Icon" class="star-icon">
+                            </label>
+                            <label for="faq-4" class="faq-item">
+                                <span>What is Chowscore?</span>
+                                <img src="./Frame.png" alt="Sun Icon" class="star-icon">
+                            </label>
+                            <label for="faq-5" class="faq-item">
+                                <span>What is Service fee?</span>
+                                <img src="./Frame.png" alt="Sun Icon" class="star-icon">
+                            </label>
+                            <label for="faq-6" class="faq-item">
+                                <span>Why do we charge Service fee?</span>
+                                <img src="./Frame.png" alt="Sun Icon" class="star-icon">
+                            </label>
+                            <label for="faq-7" class="faq-item">
+                                <span>What is Surge fee?</span>
+                                <img src="./Frame.png" alt="Sun Icon" class="star-icon">
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="faq-right-ans">
+                        <h2 class="ans-title">Ans.</h2>
+                        <div class="ans-content-box">
+                            <img src="./Frame.png" alt="Sun Icon" class="ans-star-icon">
+                            <div class="ans-text ans-1">Chowdeck is a technology company that provides logistics services to both vendors and consumers. This allows food vendors to deliver meals seamlessly while providing consumers with an easy platform to order meals.</div>
+                            <div class="ans-text ans-2">We currently deliver to food lovers and customers across Lagos, Abuja, Ibadan, and other major cities, with continuous expansion.</div>
+                            <div class="ans-text ans-3">Chowdeck wallet is a secure digital wallet that allows you to fund your account ahead and make instant payments.</div>
+                            <div class="ans-text ans-4">Chowscore is a rating and reward metric used to track your loyalty and engagement on the platform.</div>
+                            <div class="ans-text ans-5">Service fee is a small charge applied to orders that helps us maintain our technology platform and support.</div>
+                            <div class="ans-text ans-6">We charge a service fee to guarantee 24/7 technical support, continuous app improvements, and logistics coordination.</div>
+                            <div class="ans-text ans-7">A surge fee is temporarily applied during extreme weather conditions, peak traffic hours, or high demand.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="order-seconds-grid">
+                <div class="order-banner-card">
+                    <h2 class="order-seconds-title">Place your<br>order in seconds</h2>
+                    
+                    <div class="app-download-btns">
+                        <a href="#" class="store-badge-btn">
+                            <i class="fa-brands fa-google-play"></i> Download on Google Play
+                        </a>
+                        <a href="#" class="store-badge-btn">
+                            <i class="fa-brands fa-apple"></i> Download on App Store
+                        </a>
+                    </div>
+
+                    <div class="promo-box">
+                        <img src="./Promo-code.svg.png" alt="Promo Tag" class="promo-tag-img">
+                        <div class="code-btn">
+                            <img src="./Frame.png" alt="Sun Icon" class="code-star">
+                            <span>ONWEB</span>
+                        </div>
+                        <p class="promo-text">Get <strong>₦300 off</strong> your first order when you use this promo code!</p>
+                    </div>
+
+                    <img src="./drink.svg.png" alt="Drink SVG" class="drink-svg-img">
+                </div>
+
+                <div class="phone-hand-card">
+                    <img src="./image.jpg" alt="Hand holding phone with Chowdeck app" class="phone-hand-img">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="footer-top-row">
+            <div class="footer-input-wrapper">
+                <input type="email" placeholder="yourname@email.com" class="footer-email-input">
+            </div>
+            <div class="footer-arrow-wrapper">
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+
+        <div class="footer-main-grid">
+            <div class="footer-col-left">
+                <div class="footer-badge-img-wrap">
+                    <img src="./svg (1).png" alt="Delivery Overall Best" class="footer-badge-circle">
+                </div>
+                <div class="footer-logo-wrap">
+                    <img src="./div (3).png" alt="Chowdeck Logo" class="footer-logo-img">
+                </div>
+            </div>
+
+            <div class="footer-col-links">
+                <h3>COMPANY</h3>
+                <ul>
+                    <li><a href="#">customers</a></li>
+                    <li><a href="#">Vendors</a></li>
+                    <li><a href="#">Riders</a></li>
+                    <li><a href="#">Storefront</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col-links">
+                <h3>CUISINES NEAR YOU</h3>
+                <ul>
+                    <li><a href="#">Pasta near me</a></li>
+                    <li><a href="#">Rice near me</a></li>
+                    <li><a href="#">Fast food near me</a></li>
+                    <li><a href="#">Asian food in Lagos</a></li>
+                    <li><a href="#">African food in Lagos</a></li>
+                    <li><a href="#">Breakfast menu in Lagos</a></li>
+                    <li><a href="#">Fitfam stores in Lagos</a></li>
+                    <li><a href="#">American food in Lagos</a></li>
+                    <li><a href="#">Pastries in Lagos</a></li>
+                    <li><a href="#">Salad in Lagos</a></li>
+                    <li><a href="#">Fruits in Lagos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col-links">
+                <h3>POPULAR</h3>
+                <ul>
+                    <li><a href="#">Food delivery</a></li>
+                    <li><a href="#">Surulere</a></li>
+                    <li><a href="#">Ogudu</a></li>
+                    <li><a href="#">Yaba</a></li>
+                    <li><a href="#">Ikeja</a></li>
+                    <li><a href="#">Lekki</a></li>
+                    <li><a href="#">King Glab</a></li>
+                    <li><a href="#">Korede Spaghetti</a></li>
+                    <li><a href="#">Iyan Aladuke</a></li>
+                    <li><a href="#">Food Fusion</a></li>
+                    <li><a href="#">Belefull</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-social-grid">
+            <div class="footer-social-box">
+                <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i> Twitter</a>
+            </div>
+            <div class="footer-social-box">
+                <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            </div>
+            <div class="footer-social-box">
+                <a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+            </div>
+            <div class="footer-social-box">
+                <a href="#" class="social-link"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom-bar">
+            <p>© All Rights Reserved. 2022, Chowdeck Logistics Inc.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="chat-widget" aria-label="Open Chat">
+        <img src="./chat.png" alt="Chat Messenger">
+    </a>
+
+</body>
+</html>
